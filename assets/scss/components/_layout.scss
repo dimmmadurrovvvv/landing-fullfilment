@@ -1,0 +1,43 @@
+.layout {
+  $scrollbar-width: 20px;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+  min-width: rem(calc($container-min-width - $scrollbar-width));
+
+  &__header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: $z-header;
+
+    min-width: 320px;
+
+    width: 100%;
+  }
+
+  &__breadcrumbs {
+    margin-top: rem($gap-medium);
+  }
+
+  &__page {
+    display: flex;
+    flex-direction: column;
+
+    flex-grow: 1;
+
+    width: 100%;
+    margin-top: rem($header-height-desktop);
+
+    @media #{$screen-mobile} {
+    }
+  }
+
+  &__footer {
+    margin-top: rem($gap-xxl);
+  }
+}

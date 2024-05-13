@@ -1,0 +1,153 @@
+/**
+* Colors
+*/
+
+// static
+$black: #000000;
+$cod-gray: #1f1d1c;
+$mine-shaft: #3a3737;
+$cape-cod: #383c3e;
+$silver-chalice: #acacac;
+$sirocco: #737b7d;
+
+$medium-purple: #9b3be6;
+$waterloo: #6f6c90;
+
+$white: #ffffff;
+$aqua-squeeze: #edf7f6;
+$titan-white: #e9e6ff;
+$wild-sand: #f6f6f6;
+
+// dynamic
+$fill-col-primary: $white;
+$fill-col-primary-invert: $black;
+$fill-col-primary-muted: $wild-sand; // 6f6
+
+$fill-col-secondary: $aqua-squeeze; // 7f6
+$fill-tetriary: $titan-white; // 6ff
+$fill-col-accent: $medium-purple; // be6
+
+$txt-col-primary: $black;
+$txt-col-primary-invert: $fill-col-primary;
+$txt-col-primary-muted-low: $mine-shaft; // 737
+$txt-col-primary-muted-high: $cape-cod; // c3e
+$txt-col-secondary: $cod-gray; // d1c
+$txt-col-tetriary: $waterloo; // c90
+
+$border-col-primary: $cod-gray; // d1c
+$border-col-secondary: $silver-chalice; // cac
+$border-col-tetriary: $sirocco;
+
+$button-col-primary: $cod-gray; // d1c
+
+/**
+* Fonts
+*/
+
+// family
+$font-path: '/fonts';
+$font-family-custom-1: 'Poppins';
+$font-family-custom-2: 'RussoOne';
+$font-family-default: 'Arial', 'Helvetica', sans-serif;
+
+$font-family-primary: $font-family-custom-1, $font-family-default;
+$font-family-secondary: $font-family-custom-2, $font-family-default;
+
+// weight
+$font-weight-extrabold: 800;
+$font-weight-bold: 700;
+$font-weight-semibold: 600;
+$font-weight-medium: 500;
+$font-weight-regular: 400;
+
+// font size
+$font-size-rem: 16px; // for rem function
+
+$font-size-xl: 58px; // not used
+$font-size-huge: 34px;
+$font-size-great: 26px;
+$font-size-big: 20px;
+$font-size-average: 18px;
+$font-size-normal: 16px;
+$font-size-mini: 12px; // not used
+$font-size-micro: 10px; // not used
+
+$line-height-big: 1.4;
+$line-height-medium: 1.33;
+$line-height-increased: 1.2;
+$line-height-normal: 1.16;
+$line-height-small: 1;
+
+/**
+* Sizes
+*/
+$gap-xxl: 112px;
+$gap-xl: 92px;
+$gap-large: 64px;
+$gap-big: 42px;
+$gap-medium: 32px;
+$gap-normal: 24px;
+$gap-small: 16px;
+$gap-mini: 12px;
+$gap-tiny: 8px;
+$gap-micro: 4px;
+$gap-minimal: 2px;
+
+$icon-size-xl: 48px;
+$icon-size-big: 32px;
+$icon-size-medium: 24px;
+$icon-size-small: 20px;
+$icon-size-mini: 16px;
+$icon-size-micro: 14px;
+
+$header-height-desktop: 60px;
+
+/**
+* Breakpoints
+*/
+$screen-mobile: '(max-width: 767px)';
+$screen-tablet: '(max-width: 1279px)';
+
+/**
+* Layout
+*/
+$container-width-mobile: 375px;
+$container-width-mobile-big: 425px;
+$container-width-tablet: 768px;
+$container-width-laptop: 1024px;
+$container-width-desktop: 1660px;
+
+$container-horizontal-padding-desktop: 48px;
+$container-horizontal-padding-tablet: 20px;
+$container-horizontal-padding-mobile: 20px;
+
+$container-min-width: 320px;
+
+/**
+* Radius
+*/
+$border-radius-xl: 60px;
+$border-radius-big: 20px;
+$border-radius-medium: 16px;
+
+/**
+* Box-shadow
+*/
+$box-shadow-default: 0px 4px 20px 0px #0000001a;
+
+/**
+* Opacity
+*/
+$opacity-low: 0.2;
+$opacity-micro: 0.05;
+
+// Transitions and Animations
+$transition-duration: 200ms;
+$transition-duration-fast: 100ms;
+$transition-function: ease-in-out;
+
+/**
+* Z-index
+*/
+$z-page: 1;
+$z-header: 2;

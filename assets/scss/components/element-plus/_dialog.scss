@@ -1,0 +1,65 @@
+.el-dialog {
+  padding: rem(64px) rem(56px);
+  @media (max-width: $container-width-tablet) {
+    padding: rem(30px);
+  }
+  @media (max-width: $container-width-mobile-big) {
+    padding: rem(20px);
+  }
+  border-radius: rem($border-radius-big);
+
+  min-width: 320px !important;
+  width: 100%;
+  max-width: 900px;
+  margin-top: 5vh;
+
+  &__title {
+    @include font-title;
+    @include text-huge;
+
+    @media (max-width: $container-width-tablet) {
+      @include text-great;
+    }
+    @media (max-width: $container-width-mobile-big) {
+      @include text-big;
+      text-align: center;
+    }
+  }
+
+  &__header {
+    padding-bottom: rem(60px);
+    @media (max-width: $container-width-mobile-big) {
+      padding-bottom: 30px;
+    }
+  }
+
+  &__headerbtn {
+    top: rem(28px);
+    right: rem(18px);
+
+    width: rem(60px);
+    height: rem(60px);
+
+    @media (max-width: $container-width-tablet) {
+      top: rem(15px);
+      right: rem(15px);
+
+      width: rem(40px);
+      height: rem(40px);
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #f6f6f6;
+    flex-shrink: 0;
+  }
+
+  &__close {
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+}
