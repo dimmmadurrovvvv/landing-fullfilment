@@ -1,5 +1,5 @@
 <template>
-    <section class="main-page-consultation">
+    <section id="feedback" class="main-page-consultation">
 
         <div class="main-page-consultation__inner">
 

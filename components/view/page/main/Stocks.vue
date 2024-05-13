@@ -1,5 +1,5 @@
 <template>
-	<section class="main-page-stocks">
+	<section id="stocks" class="main-page-stocks">
 		<div class="main-page-stocks__meta">
 			<h2 class="main-page-stocks__meta-title">Складские помещения</h2>
 			<p class="main-page-stocks__meta-subtitle">

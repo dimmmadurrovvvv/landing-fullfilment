@@ -1,5 +1,5 @@
 <template>
-	<section class="main-page-pricing">
+	<section id="pricing" class="main-page-pricing">
 		<header class="main-page-pricing__header">
 			<h2 class="main-page-pricing__title">Наши цены</h2>
 			<div class="main-page-pricing__buttons">
@@ -125,15 +125,15 @@ const cards = [
 		services: [
 			{
 				name: 'Пересчет товара',
-				price: 'от 2 000 р'
+				price: 'от 2  р'
 			},
 			{
 				name: 'Первичный осмотр на брак ',
-				price: 'от 2 000 р'
+				price: 'от 2 р'
 			},
 			{
 				name: 'Сортировка товара',
-				price: 'от 2 000 р'
+				price: 'от 2 р'
 			}, 
 		],
 		button: {
@@ -146,7 +146,7 @@ const cards = [
 		services: [
 			{
 				name: 'Все виды упаковки',
-				price: 'от 4 000 р'
+				price: 'от 4 р'
 			},
 			{
 				name: 'Раскладка в коробки',
@@ -213,7 +213,7 @@ const cards = [
 			},
 			{
 				name: 'Хранение короба 60х40х40 см в сутки',
-				price: 'от 30 р'
+				price: 'от 3 р'
 			},
 			{
 				name: 'Хранение товара от 1 короба до 0,5 м3 в сутки',

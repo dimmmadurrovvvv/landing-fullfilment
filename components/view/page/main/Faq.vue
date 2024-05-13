@@ -1,5 +1,5 @@
 <template>
-	<section class="main-page-faq">
+	<section id="faq" class="main-page-faq">
 		<ElCollapse class="main-page-faq__collapse">
 			<ElCollapseItem
 				class="main-page-faq__collapse-item"
@@ -17,25 +17,21 @@
 </template>
 
 <script lang="ts" setup>
-interface Item {
-  question: string;
-  answer: string;
-}
-const items: Item[] = [
+const items = [
 	{
 		question: 'Как начать с вами сотрудничество?',
 		answer:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+			'Вы можете связаться с нами через форму обратной связи или позвонив по номеру'
 	},
 	{
 		question: 'С каким минимальным количеством товара\n вы работаете?',
 		answer:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+			'Мы работаем с любым количеством товара'
 	},
 	{
 		question: 'С каким максимальным количеством товара\n вы работаете?',
 		answer:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
+			'Мы работаем с любым количеством товара'
 	}
 ]
 </script>
@@ -60,4 +56,3 @@ const items: Item[] = [
 	}
 }
 </style>
-

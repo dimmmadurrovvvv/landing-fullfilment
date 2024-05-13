@@ -1,5 +1,5 @@
 <template>
-  <section class="main-page-services">
+  <section id="services" class="main-page-services">
     <ul class="main-page-services__list">
       <li
         class="main-page-services__list-item"
@@ -64,7 +64,7 @@
             </li>
           </ul>
         </div>
-          <div class="popup-base__footer" style="display: none">
+          <div class="popup-base__footer">
             <UiButton class="popup-base__footer-button" text="Скачать прайс" />
             <UiButton
               class="popup-base__footer-button"

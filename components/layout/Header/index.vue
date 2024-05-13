@@ -23,7 +23,7 @@
 			</div>
 			<div class="header__col">
 				<div class="header__meta">
-					<a class="header__meta-tel" href="tel:+74959999999">
+					<a class="header__meta-tel" href="tel:+79060060064">
 						+7 495 999-99-99
 					</a>
 				</div>
@@ -39,8 +39,8 @@
 					</NuxtLink>
 				</li>
 				<li>
-					<a class="header__nav-links-item-link" href="tel:+74959999999">
-						+7 495 999-99-99
+					<a class="header__nav-links-item-link" href="tel:+79060060064">
+						+7 (906) 006 00 64
 					</a>
 				</li>
 			</ul>
@@ -53,12 +53,12 @@
 
 <script setup lang="ts">
 const headerLinks = [
-	{ text: 'О нас', path: '#' },
-	{ text: 'Наш склад', path: '#' },
-	{ text: 'Наши услуги', path: '#' },
-	{ text: 'Наши цены', path: '#' },
-	{ text: 'FAQ', path: '#' },
-	{ text: 'Связь с нами', path: '#' }
+	{ text: 'О нас', path: '/#about' },
+	{ text: 'Наш склад', path: '/#stocks' },
+	{ text: 'Наши услуги', path: '/#services' },
+	{ text: 'Наши цены', path: '/#pricing' },
+	{ text: 'FAQ', path: '/#faq' },
+	{ text: 'Связь с нами', path: '/#feedback' }
 ]
 
 document?.addEventListener('click', function (e) {

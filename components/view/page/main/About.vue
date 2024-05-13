@@ -1,5 +1,5 @@
 <template>
-	<section class="main-page-about">
+	<section id="about" class="main-page-about">
 		<div class="main-page-about__inner">
 			<div class="main-page-about__info">
 				<h2 class="main-page-about__info-title">О нас</h2>
