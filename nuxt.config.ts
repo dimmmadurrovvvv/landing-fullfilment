@@ -1,5 +1,6 @@
 export default defineNuxtConfig({
   ssr: true,
+  target: 'static',
   app: {
     head: {
       htmlAttrs: {

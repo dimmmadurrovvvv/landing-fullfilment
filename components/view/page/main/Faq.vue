@@ -17,7 +17,11 @@
 </template>
 
 <script lang="ts" setup>
-const items = [
+interface Item {
+  question: string;
+  answer: string;
+}
+const items: Item[] = [
 	{
 		question: 'Как начать с вами сотрудничество?',
 		answer:
@@ -29,7 +33,7 @@ const items = [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 	},
 	{
-		question: 'С каким минимальным количеством товара\n вы работаете?',
+		question: 'С каким максимальным количеством товара\n вы работаете?',
 		answer:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
 	}
@@ -56,3 +60,4 @@ const items = [
 	}
 }
 </style>
+
